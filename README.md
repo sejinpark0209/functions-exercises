@@ -13,28 +13,28 @@ Handwrite a first draft of each of these functions on your table, a whiteboard, 
 
 2. **Define any necessary variables.** If your function isn't returning a hardcoded value (most don't), you're probably going to return a variable. Define that variable with a concise, descriptive name and adjust the return statement as needed. Are there any obvious variables that you will need to complete the function? Define those with good names too!
 
-3. **Pseudocode the machinery of the function.** Give yourself some idea of how you'll expand the function to do what you need it to do.
+3. **Pseudocode the machinery of the function.** Give yourself some idea of how you'll expand the function to do what you need it to do. When you handwrite code, it's hard to land on exact syntax. Instead of focusing on syntax, form a general sense of how you'll build the function. Will you need to loop? Will you need a certain conditional statement? Write this out in a format somewhere between english and code.
 
-Once you've spent 5 minutes without a computer, enter your code into `functions.js` and test it by running the functions.
+4. **Refine your ideas into more formal code.** Once you have a draft in pseudocode, you're ready to try to write more exact syntax. For now, don't get stuck on any single piece of syntax, but do your best to get as close as you can. This is a good test to see how much syntax you know by heart.
 
-Run your function by making a function call in the `functions.js` file, going to your terminal (which must be focused focused on the correct directory), and running `node functions.js`.
+Once you've spent 5-10 minutes without a computer, enter your code into `functions.js`. Run your function by making a function call in the `functions.js` file, going to your terminal (which must be focused on the correct directory), and running `node functions.js`.
 
-After you implement a function successfully in your snippet, copy it over into the `functions.js` file.  Unless a different behavior is specified, have the function log the answer to the console AND return it.
+Unless a different behavior is specified, have the function log the proper response to the console AND return it.
 
-Notice there is a solutions.js file. Make a full attempt at finishing these on your own and refer to the solutions only when you are finished or unbearably stuck. Also recognize that the solutions are only **one** solution and that there are many good ways to solve these problems.
+Notice there is a `solutions.js` file. Make a full attempt at finishing these on your own and refer to the solutions when you are finished or stuck. **Do not give up before you've made a good attempt!** The discomfort of the struggle is the feeling learning! Also recognize that the solutions are only **one** solution and that there are many good ways to solve these problems.
 
 For some of the problems, you'll have to use functions or other variables supplied by JavaScript's built-in `Math` object.  [Here is the documentation on using the `Math` object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math).
 
 **Example Usage of `Math`**
 ```javascript
 	var absoluteValue = Math.abs(-4);
-	// evaluates to 4
+	//  absoluteValue will now be 4
 
 	var fourSquared = Math.pow(4, 2);
-	// evaluates to 16
+	//  fourSquared will now be 16
 
 	var roundedToNearestInteger = Math.round(1.22343);
-	// evaluates to 1
+	//  roundedToNearestInteger will now be 1
 ```
 
 
