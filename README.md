@@ -1,19 +1,23 @@
 # Training - Javascript Functions
 
-Fork this repository to your GitHub account, then clone your GitHub copy onto your computer. Write the functions assigned below in the file `functions.js`. Use snippets to run and observe the results of your code.
+Fork this repository to your GitHub account, then clone your GitHub copy onto your computer. Write the functions assigned below in the file `functions.js`.
 
 ## Setup
 
-Here's how to use a snippet:
+Handwrite a first draft of each of these functions on your table, a whiteboard, or a notebook. We're doing this to get you feeling comfortable with interview-type procedure. This might seem intimidating, but there are some basic steps that you can always take.
 
-1. Open the Chrome Developer Console (Option + Command + I)
-1. Navigate to the `Sources` tab in the Chrome Developer Console.
-2. Click on the `Snippets` tab within the Sources display.
-3. Right-click and choose `New` to create a new Snippets file.
-4. Name the Snippets File `myFunctions`.
-4. Write or paste code into the editing window and press `cmd` + `return` to run the code.
+1. **Create a *stub*.** This is a dummy version of your function with the function name, any parameters, and a hardcoded return value of the correct data type. While this is simplistic, it allows you to check in on the essentials of the function to make sure you understand how many parameters you need, what data type you should return, and what you should name this function. Interviewers will be pumped when you:
+	* confirm the necessary parameters
+	* return a value of the proper data type
+	* name your function semantically
 
-You'll be filling in a bunch of empty function definitions. Type each blank function definition into the snippet, then **you write** the rest of the code to make the function work.
+2. **Define any necessary variables.** If your function isn't returning a hardcoded value (most don't), you're probably going to return a variable. Define that variable with a concise, descriptive name and adjust the return statement as needed. Are there any obvious variables that you will need to complete the function? Define those with good names too!
+
+3. **Pseudocode the machinery of the function.** Give yourself some idea of how you'll expand the function to do what you need it to do.
+
+Once you've spent 5 minutes without a computer, enter your code into `functions.js` and test it by running the functions.
+
+Run your function by making a function call in the `functions.js` file, going to your terminal (which must be focused focused on the correct directory), and running `node functions.js`.
 
 After you implement a function successfully in your snippet, copy it over into the `functions.js` file.  Unless a different behavior is specified, have the function log the answer to the console AND return it.
 
@@ -46,9 +50,9 @@ Push your updates to GitHub and add a link to the repo to the "My Work" section 
 
 
 ### 1.  Build your own concatenation
-Return a new string that is the combination of two arguments passed into the function
+Return a new string that is the combination of two string arguments passed into the function
 
-**Example: `dog` and `house` will return `doghouse`**
+**Example: `'dog'` and `'house'` will return `'doghouse'`**
 <details>
 <summary>Function signature (only look at this after you've thought about what it should look like)</summary>
 <br>
